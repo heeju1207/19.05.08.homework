@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>무드보드</title>
+</head>
+
+<style type="text/css">
+	.wrap{width: 900px; margin: auto;}	
+	section{height: 3000px; position: relative;}
+	.back{background: url(back.png); background-size: cover;}
+	.aaa{display: block; width:480px; position: absolute; left: 0px; z-index: 2;transition: all 2s;}
+	.aaa:hover{left: 100px;}
+	.bbb{display: block; width:430px; left: 470px; position: absolute; z-index: 2;}
+	.ccc{display: block; width:900px;  z-index: 1; position: fixed;}
+	
+	.ddd{display: block; width:430px; position: absolute; left:30px; z-index: 2; transition: all 2s;top:550px;}
+	.ddd:hover{left:-100px;}
+	.eee{display: block; width:380px; position: absolute; left: 380px; top:650px; z-index: 3;}
+	.fff{display: block; width:900px;   z-index: 1; top: 350px;position: fixed;}
+
+	.m1{animation: ro6 100s infinite; ;}
+  			@keyframes ro6{
+  			from{top:650px;}
+  			to{top:650px;transform:rotate(-360deg)}}
+
+	.m2{animation: ro5 70s infinite; ;}
+  			@keyframes ro5{
+  			from{top:2320px;}
+  			to{top:2320px;transform:rotate(-360deg)}}
+
+	.ggg{display: block; width:900px;top:830px;position: absolute; left: 0px; z-index: 2;overflow: hidden;}
+	.hhh{display: block; width:280px; position: absolute; left: 600px;top:1250px; z-index: 2;transition: all 2s;}
+	.hhh:hover{left:700px;}
+	.iii{display: block; width:550px;top:1400px;position: absolute; left: 0px; z-index: 2;}
+	.jjj{display: block; width:430px; position: absolute; left: 470px;top:1450px; z-index: 2;transition: all 2s;}
+	.jjj:hover{top: 1550px}
+	.kkk{display: block; width:900px; position: absolute; left: 0px;top:1650px; z-index: 3;}
+	.lll{display: block; width:420px; position: absolute; left: 380px;top:2320px; z-index: 3;}
+	.nnn{display: block; width:430px; position: absolute; left:470px;top:2405px; z-index: 2;}
+	.c22{display: block; width:900px;  z-index: 1; position: fixed;margin-left:0px; top: 650px;}
+	.c33{display: block; width:900px;  z-index: 1; position: absolute;margin-left:0px; top:2300px;}
+</style>
+
+<body>
+	<div class="wrap">
+
+			<section class="back">
+				
+				<img src="01.png" class="aaa">
+				<img src="02.png" class="bbb">	
+				<img src="23.png" class="ccc">
+				<img src="03.png" class="ddd">
+				<img src="04.png" class="eee m1">
+				<img src="24.png" class="fff">
+				<img src="05.png" class="ggg">
+				<img src="06.png" class="hhh">
+				<img src="07.png" class="iii">
+				<img src="08.png" class="jjj">
+				<img src="09.png" class="kkk">
+				<img src="10.png" class="lll m2">
+				<img src="11.png" class="nnn">
+				<img src="25.png" class="c22">
+				<img src="26.png" class="c33">
+
+			</section>
+			
+
+
+	</div>
+
+
+
+</body>
+</html>
